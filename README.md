@@ -12,5 +12,3 @@ There are two parts to this task:
 
 Entering the content.
 Creating a look that matches the design sketch.
-
-sdf
