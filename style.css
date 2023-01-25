@@ -1,0 +1,19 @@
+.header-title {
+  background-image: url(./img/Task2_img/design1_image1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 150px;
+  margin: 1px auto 1px;
+}
+.header-subtitle{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 5px 0 5px;
+  margin: 1px auto 1px;
+
+}
+
+.logo{
+  height: 100px;
+}
