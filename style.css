@@ -4,7 +4,10 @@
   background-size: cover;
   height: 150px;
   margin: 1px auto 1px;
+  text-shadow: 0 0 3px white, 0 0 5px white;
 }
+
+
 .header-subtitle{
   text-align: center;
   background-color: black;
@@ -34,4 +37,16 @@ li>p{
 
 main>p{
   font-weight: bold;
+}
+
+article{
+  font-weight: bold;
+}
+
+article>p{
+  text-indent: 25px;
+}
+
+article>h2{
+  margin-bottom:-20px;
 }
