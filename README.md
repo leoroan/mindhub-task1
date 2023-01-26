@@ -6,6 +6,10 @@ You have been asked by League Director, Tom Denton, to create on of two differen
 
 Here’s what you need to include in the website:
 
-1 properly structured CSS styleshet
-Correct links to the CSS from the HTML pages.
+<ul>
+<li>1 properly structured CSS styleshet</li>
+<li>Correct links to the CSS from the HTML pages.</li>
+</ul>
+
+
 Note: CSS styles can be specified directly on HTML elements, at the front of an HTML file, and in a separate file. We'll focus on the third option because that's the best one for creating a consistent site-wide look and feel. That's why you'll be creating a separate file (CSS stylesheet).
