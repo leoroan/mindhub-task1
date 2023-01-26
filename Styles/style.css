@@ -1,16 +1,16 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Comic Sans MS";
 }
 
-nav{
-  width: 20%;
-  float: left;
+nav {
+  width: 10%;
+  /* float: left; */
 }
 
-nav>a{
+nav>a {
   display: inline-block;
   padding: 10px;
 }
@@ -25,7 +25,7 @@ nav>a{
 }
 
 
-.header-subtitle{
+.header-subtitle {
   text-align: center;
   background-color: black;
   color: white;
@@ -34,57 +34,60 @@ nav>a{
 
 }
 
-.logo{
+.logo {
   height: 130px;
   margin: -100px 0 -10px 80%;
   display: inline-block;
 }
 
-ul{
-  list-style: none;  
+ul {
+  list-style: none;
   font-weight: bold;
 }
 
-li>h3{
+li>h3 {
   /* margin-bottom:-1px; */
-  margin: 10px 0 2px ; 
+  margin: 10px 0 2px;
 }
 
-li>p{
+li>p {
   text-indent: 2%;
   margin: 1px auto 1px;
 }
 
-article{
+article {
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-article>p{
+article>p {
   text-indent: 25px;
 }
 
-body{
+body {
   margin: 0 15%;
 }
 
-main{
-  width: 80%;
-  padding: 20px 0 0;
-  overflow: auto;
-  float: right;
+main {
+  width: 50%;
+  padding: 25px 0 0;
+  /* overflow: auto; */
+  /* float: right; */
+  position:absolute;
+  top: 23%;
+  left: 25%;
 
 }
 
-main>p{
-  font-weight: bold;  
+main>p {
+  font-weight: bold;
 }
 
-footer{
+footer {
   margin-top: auto;
 }
 
-.cuerpo{
+.container {
   height: 600px;
-  display: flex;
+  /* display: flex; */
 }
