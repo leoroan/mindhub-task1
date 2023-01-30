@@ -1,15 +1,19 @@
-# mindhub-task2
-ADD STYLE TO THE WEBSITE WITH CSS
+# mindhub-task3
 
-Your Task
-You have been asked by League Director, Tom Denton, to create on of two different looks for the website (chekout Email and files m1task2 and web resources task2). The look will be based on one of two sketches that Tom sent. The steps outlined in this Plan of Attack are one way to break down the creation of one look.
+## Your Task
+You have been asked by League Director, Tom Denton, to add two pages to the website (checkout Email and files m1task3 and Web resources):
 
-Here’s what you need to include in the website:
+A Game Information Page for members to find out logistical information about each game.
+A Rules & Policies Page for members to read about the rules of play and the policies that MDHL follows.
+The steps given in this Plan of Attack outline one way to break down the creation of the Game Information Page and the Rules & Policies Page into small testable steps.
 
-<ul>
-<li>1 properly structured CSS styleshet</li>
-<li>Correct links to the CSS from the HTML pages.</li>
-</ul>
+Here’s what you need to include in the web pages:
 
+Tables to present the game information data that Tom provided in a nice tabular fashion.
+TIP: As you develop each page, remember to:
 
-Note: CSS styles can be specified directly on HTML elements, at the front of an HTML file, and in a separate file. We'll focus on the third option because that's the best one for creating a consistent site-wide look and feel. That's why you'll be creating a separate file (CSS stylesheet).
+1. Update your CSS stylesheet as needed for the list and table styles, as well as any other formatting needs for the page.
+
+2. Validate the HTML and CSS by using the W3C HTML Validator and the W3C CSS Validator.
+
+3. Test all changes in a browser to ensure everything still looks and functions correctly.
