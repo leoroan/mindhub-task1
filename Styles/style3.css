@@ -8,29 +8,28 @@
 
 nav {
   display: flex;
-  justify-content: flex-end;
-  position: fixed;
-  right:1px;
+  justify-content: end;
 }
 
 nav>a {
+  height: 40px;
   padding: 5px;
   margin: 5px;
-  border: 1px solid black;
+  border: 2px solid black;
   box-shadow: 5px 5px 5px #888888;
   background-color: palegoldenrod;
   color: white;
-  text-decoration: none;
   text-shadow: 1px 1px 10px black;
-  align-items: flex-end;
+  border-radius: 25%;
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
 }
 
 nav>a:active {
   background-color: green;
-}
-
-header {
-  margin-top: 0.5%;
 }
 
 .header-title {
@@ -48,14 +47,12 @@ header {
 
 
 .header-subtitle {
-  text-align: left;
   border: 2px solid black;
-  padding: 5px 0 5px;
-  margin: 1px auto 1px;
-  margin-top: 10px;
-  padding-left: 25px;
+  margin-top: 5px;
   font-size: 25px;
   border-radius: 25px;
+  padding: 5px;
+  text-align: center;
 }
 
 .logo {
@@ -72,64 +69,141 @@ header {
   margin: 0 auto;
 }
 
+dt{
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+dd{
+  text-indent: 20px;
+}
+
 ul {
   list-style-type: circle;
   background-size: 20px;
+  text-indent: 10px;
   /* font-weight: bold; */
+}
+
+.ol-rules{
+  margin-top: 30px;
+}
+ul {
+  list-style-position: inside;
+  margin-left: 75px;
+}
+
+li>span{
+  font-weight: bold;  
 }
 
 li>h3 {
   /* margin-bottom:-1px; */
   margin: 15px 0;
-  font-size: 45px;
+  font-size: 35px;
 }
 
 li>p {
   text-indent: 2%;
   margin: 1px auto 1px;
-  font-size: 35px;
+  font-size: 25px;
+}
+
+main {
+  width: 50%;
+  height: 125%;
+  padding: 25px 0 0;
+  margin: 0 auto;
+}
+
+.contact {
+  padding-top: 100px;
+  font-weight: bolder;
+
+}
+
+section>h3 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 75px;
+}
+
+article>h4 {
+  margin-bottom: 15px;
+}
+
+section>p{
+  margin-bottom: 25px;
+}
+
+section>header{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header>h4{
+  margin-bottom: 12px;
+}
+
+section>p>span {
+  font-weight: bold ;
 }
 
 article {
-  font-weight: bold;
   margin-bottom: 20px;
 }
 
 article>p {
-  text-indent: 25px;
+  text-indent: 35px;
 }
 
-article>h2 {
+article h2 {
   text-decoration: underline;
   font-style: italic;
   padding-bottom: 10px;
+}
+
+article h4 {
+  font-style: italic;
 }
 
 body {
   margin: 1vh;
 }
 
-main {
-  width: 50%;
-  padding: 25px 0 0;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-}
-
 main>p {
   text-align: center;
-  font-weight: bold;
   font-size: 20px;
 }
 
 footer {
-  margin-top: auto;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.footP{
+  display: flex; 
+  justify-content: space-between;
+}
+
+.footP>p>span {
+  font-weight: bold ;
 }
 
 .container {
-  height: 70vh;
-  /* display: flex; */
-  /* max-height: 600px; */
+  height: 80vh;
+}
+
+table,
+th,
+td {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  margin: 50px;
 }
