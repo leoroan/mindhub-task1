@@ -263,3 +263,21 @@ button{
   margin-bottom: 50px;
 }
 
+/* ///////////////////////// MAPS  */
+
+.maps {
+  margin: 15px 0 15xp 0;
+  align-items: center;
+
+ 
+}
+
+.map-display {
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px 0 15px 0;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
