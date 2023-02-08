@@ -13,6 +13,7 @@ html {
 body {
   min-height: 100%;
   margin: 20px;
+  min-width: 100%;
 }
 
 nav {
@@ -64,7 +65,7 @@ nav>a:active {
 }
 
 .logo {
-  height: 50rem;
+  height: 100vh;
   opacity: 0.15;
   position: absolute;
   left: 0;
@@ -289,7 +290,7 @@ iframe {
 
 /* ///////////////////////// MEDIASQ  */
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   .header-title {
     background-image: url(../img/Task2_img/design1_image2.jpg);
     font-size: 45px;
