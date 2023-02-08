@@ -9,7 +9,7 @@
   <!-- <link rel="stylesheet" href="./Styles/style.css"> -->
   <!-- <link rel="stylesheet" href="./Styles/style2.css"> -->
   <link rel="stylesheet" href="./Styles/style3.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="/img/icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/icon/favicon-32x32.png">
   <title>Registration</title>
 </head>
 
@@ -40,46 +40,46 @@
       <form action="./show_data.html" method="get">
         <fieldset>
           <label> Player's first name:
-            <input type="text" name="name" id="name"></label>
+            <input type="text" name="name" id="name" required></label>
           <label> Last name:
-            <input type="text" name="surname" id="surname"></label>
+            <input type="text" name="surname" id="surname" required></label>
           <label> Street Address:
-            <input type="text" name="street_address" id="street_address"></label>
+            <input type="text" name="street_address" id="street_address" required></label>
           <label> City:
-            <input type="text" name="city" id="city"></label>
+            <input type="text" name="city" id="city" required></label>
           <label> Zip Code:
-            <input type="number" name="zip_code" id="zip_code"></label>
+            <input type="number" name="zip_code" id="zip_code" required></label>
           <label> Birth Date(mm/dd/yyyy):
-            <input type="date" name="birth_date" id="birth_date"></label>
+            <input type="date" name="birth_date" id="birth_date" required></label>
         </fieldset>
 
         <fieldset>
           <legend>Gender:</legend>
           <label> Male:
-            <input type="radio" name="gender" id="gender-male" value="male"></label>
+            <input type="radio" name="gender" id="gender-male" value="male" required></label>
           <label> Female:
-            <input type="radio" name="gender" id="gender-female" value="female"></label>
+            <input type="radio" name="gender" id="gender-female" value="female" required></label>
         </fieldset>
 
         <fieldset>
           <legend>Grade:</legend>
           <label>
-            <input type="radio" name="grade" id="Grade-pre" value="Pre-School"> Pre-School
+            <input type="radio" name="grade" id="Grade-pre" value="Pre-School" required> Pre-School
           </label>
           <label>
-            <input type="radio" name="grade" id="Grade-1" value="1st"> 1st
+            <input type="radio" name="grade" id="Grade-1" value="1st" required> 1st
           </label>
           <label>
-            <input type="radio" name="grade" id="Grade-2" value="2st"> 2st
+            <input type="radio" name="grade" id="Grade-2" value="2st" required> 2st
           </label>
           <label>
-            <input type="radio" name="grade" id="Grade-3" value="3st"> 3st
+            <input type="radio" name="grade" id="Grade-3" value="3st" required> 3st
           </label>
           <label>
-            <input type="radio" name="grade" id="Grade-4" value="4st"> 4st
+            <input type="radio" name="grade" id="Grade-4" value="4st" required> 4st
           </label>
           <label>
-            <input type="radio" name="grade" id="Grade-5" value="5st"> 5st
+            <input type="radio" name="grade" id="Grade-5" value="5st" required> 5st
           </label>
         </fieldset>
 
@@ -88,26 +88,26 @@
           <h4>Closest School:</h4>
 
           <label>
-            <input type="radio" name="closest_school" id="closest_school-AJ_Katzenmaier" value="AJ Katzenmaier"> AJ
+            <input type="radio" name="closest_school" id="closest_school-AJ_Katzenmaier" value="AJ Katzenmaier" required> AJ
             Katzenmaier
           </label>
           <label>
-            <input type="radio" name="closest_school" id="closest_school-Marjorie_P_Hart" value="Marjorie P Hart">
+            <input type="radio" name="closest_school" id="closest_school-Marjorie_P_Hart" value="Marjorie P Hart" required>
             Marjorie P Hart
           </label>
           <label>
-            <input type="radio" name="closest_school" id="closest_school-Greenbay" value="Greenbay"> Greenbay
+            <input type="radio" name="closest_school" id="closest_school-Greenbay" value="Greenbay" required> Greenbay
           </label>
           <label>
-            <input type="radio" name="closest_school" id="closest_school-North_Elementary" value="North Elementary">
+            <input type="radio" name="closest_school" id="closest_school-North_Elementary" value="North Elementary" required>
             North Elementary
           </label>
           <label>
-            <input type="radio" name="closest_school" id="closest_school-Howard_A_Yeager" value="Howard A Yeager">
+            <input type="radio" name="closest_school" id="closest_school-Howard_A_Yeager" value="Howard A Yeager" required>
             Howard A Yeager
           </label>
           <label>
-            <input type="radio" name="closest_school" id="closest_school-South_Elementary" value="South Elementary">
+            <input type="radio" name="closest_school" id="closest_school-South_Elementary" value="South Elementary" required>
             South Elementary
           </label>
         </fieldset>
@@ -115,41 +115,41 @@
         <fieldset>
           <h3>What position(s) do you normally play? (Check all that apply)</h3>
           <label>
-            <input type="checkbox" name="position" id="position-Fordward" value="Fordward"> Fordward
+            <input type="checkbox" name="position" id="position-Fordward" value="Fordward" required> Fordward
           </label>
           <label>
-            <input type="checkbox" name="position" id="position-Midfield" value="Midfield"> Midfield
+            <input type="checkbox" name="position" id="position-Midfield" value="Midfield" required> Midfield
           </label>
           <label>
-            <input type="checkbox" name="position" id="position-Defense" value="Defense"> Defense
+            <input type="checkbox" name="position" id="position-Defense" value="Defense" required> Defense
           </label>
           <label>
-            <input type="checkbox" name="position" id="position-Goalkeeper" value="Goalkeeper"> Goalkeeper
+            <input type="checkbox" name="position" id="position-Goalkeeper" value="Goalkeeper" required> Goalkeeper
           </label>
         </fieldset>
 
         <fieldset>
           <h3>Uniform Size:</h3>
           <label>
-            <input type="radio" name="uniform_size" id="uniform_size-Youth_Small" value="Youth Small"> Youth Small
+            <input type="radio" name="uniform_size" id="uniform_size-Youth_Small" value="Youth Small" required> Youth Small
           </label>
           <label>
-            <input type="radio" name="uniform_size" id="uniform_size-Medium" value="Medium"> Medium
+            <input type="radio" name="uniform_size" id="uniform_size-Medium" value="Medium" required> Medium
           </label>
           <label>
-            <input type="radio" name="uniform_size" id="uniform_size-Youth_Medium" value="Youth Medium"> Youth Medium
+            <input type="radio" name="uniform_size" id="uniform_size-Youth_Medium" value="Youth Medium" required> Youth Medium
           </label>
           <label>
-            <input type="radio" name="uniform_size" id="uniform_size-Large" value="Large"> Large
+            <input type="radio" name="uniform_size" id="uniform_size-Large" value="Large" required> Large
           </label>
           <label>
-            <input type="radio" name="uniform_size" id="uniform_size-Youth_Large" value="Youth Large"> Youth Large
+            <input type="radio" name="uniform_size" id="uniform_size-Youth_Large" value="Youth Large" required> Youth Large
           </label>
           <label>
-            <input type="radio" name="uniform_size" id="uniform_size-Extra_Large" value="Extra-Large"> Extra-Large
+            <input type="radio" name="uniform_size" id="uniform_size-Extra_Large" value="Extra-Large" required> Extra-Large
           </label>
           <label>
-            <input type="radio" name="uniform_size" id="uniform_size-Small" value="Small"> Small
+            <input type="radio" name="uniform_size" id="uniform_size-Small" value="Small" required> Small
           </label>
         </fieldset>
 
@@ -168,15 +168,18 @@
           </p>
 
           <label class="signature"> Parent/Guardian Signature:
-            <input type="text" name="signature_name" id="signature_name">
+            <input type="text" name="signature_name" id="signature_name" required>
           </label>
 
           <label class="signature"> Date:
-            <input type="date" name="signature_date" id="signature_date">
+            <input type="date" name="signature_date" id="signature_date" required>
           </label>
         </fieldset>
 
-        <button type="submit">Send</button>
+        <div class="button">
+          <button type="submit">Send</button>
+        </div>
+        
       </form>
     </section>
   </main>
